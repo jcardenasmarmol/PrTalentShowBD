@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1605.2124999999999" y="2033.0">controlador.ApTalentShow</node>
+    <node x="981.8374999999999" y="1623.0">modelo.procesos.Procesos</node>
+    <node x="907.1168981481484" y="15.5">modelo.beans.Actuar</node>
+    <node x="667.8668981481482" y="152.0">modelo.beans.Artista</node>
+    <node x="240.0" y="554.0">modelo.dao.DAO</node>
+    <node x="812.0865740740742" y="1315.0">modelo.procesos.ProcesoAddArtista</node>
+    <node x="1646.7124999999999" y="2310.0">controlador.Principal</node>
+    <node x="1563.330324074074" y="965.5">vista.UtilidadesES</node>
+    <node x="817.9999999999999" y="631.5">modelo.beans.Cantante</node>
+    <node x="0.0" y="600.0">modelo.beans.Artistas</node>
+    <node x="287.6053240740739" y="903.0">modelo.dao.ArtistaDAO</node>
+    <node x="1230.675" y="631.5">modelo.beans.Malabarista</node>
+    <node x="1924.5295138888887" y="1377.0">vista.Menu</node>
+    <node x="2177.2795138888887" y="1059.0">vista.OpcionesMenu</node>
+    <node x="555.9999999999999" y="631.5">modelo.beans.Poeta</node>
+    <node x="682.1168981481484" y="0.0">modelo.beans.Presentarse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="controlador.ApTalentShow" target="modelo.procesos.Procesos">
+      <point x="-12.291666666666742" y="-113.5" />
+      <point x="1740.4208333333331" y="1963.0" />
+      <point x="1638.0874999999999" y="1963.0" />
+      <point x="218.75" y="160.0" />
+    </edge>
+    <edge source="modelo.beans.Artistas" target="modelo.beans.Artista">
+      <point x="0.0" y="-98.5" />
+      <point x="110.0" y="524.0" />
+      <point x="723.3668981481482" y="524.0" />
+      <point x="-166.5" y="176.0" />
+    </edge>
+    <edge source="controlador.Principal" target="controlador.ApTalentShow">
+      <point x="0.0" y="-35.5" />
+      <point x="0.0" y="113.5" />
+    </edge>
+    <edge source="modelo.procesos.ProcesoAddArtista" target="modelo.dao.ArtistaDAO">
+      <point x="-218.0" y="-129.0" />
+      <point x="866.5865740740742" y="1295.0" />
+      <point x="664.7303240740739" y="1295.0" />
+      <point x="161.625" y="176.0" />
+    </edge>
+    <edge source="modelo.dao.ArtistaDAO" target="modelo.beans.Poeta">
+      <point x="0.0" y="-176.0" />
+      <point x="503.1053240740739" y="863.0" />
+      <point x="616.4999999999999" y="863.0" />
+      <point x="-60.5" y="67.0" />
+    </edge>
+    <edge source="modelo.dao.ArtistaDAO" target="modelo.beans.Cantante">
+      <point x="86.20000000000005" y="-176.0" />
+      <point x="589.305324074074" y="873.0" />
+      <point x="884.7499999999999" y="873.0" />
+      <point x="-66.75" y="67.0" />
+    </edge>
+    <edge source="controlador.ApTalentShow" target="vista.OpcionesMenu">
+      <point x="135.2083333333332" y="-113.5" />
+      <point x="1887.9208333333331" y="2013.0" />
+      <point x="2327.0295138888887" y="2013.0" />
+      <point x="2327.0295138888887" y="1295.0" />
+      <point x="2301.0295138888887" y="1295.0" />
+      <point x="41.25" y="20.0" />
+    </edge>
+    <edge source="vista.Menu" target="vista.OpcionesMenu">
+      <point x="98.0" y="-67.0" />
+      <point x="-41.25" y="20.0" />
+    </edge>
+    <edge source="controlador.ApTalentShow" target="vista.Menu">
+      <point x="86.04166666666669" y="-113.5" />
+      <point x="1838.7541666666666" y="1993.0" />
+      <point x="2133.8374999999996" y="1993.0" />
+      <point x="2133.8374999999996" y="1593.0" />
+      <point x="2169.5295138888887" y="1593.0" />
+      <point x="49.0" y="67.0" />
+    </edge>
+    <edge source="modelo.procesos.ProcesoAddArtista" target="modelo.beans.Poeta">
+      <point x="-109.0" y="-129.0" />
+      <point x="975.5865740740742" y="1285.0" />
+      <point x="789.9999999999999" y="1285.0" />
+      <point x="789.9999999999999" y="863.0" />
+      <point x="737.4999999999999" y="863.0" />
+      <point x="60.5" y="67.0" />
+    </edge>
+    <edge source="modelo.beans.Artista" target="modelo.beans.Presentarse">
+      <point x="-110.99999999999989" y="-176.0" />
+      <point x="778.8668981481483" y="127.0" />
+      <point x="784.6168981481484" y="127.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="modelo.beans.Poeta" target="modelo.beans.Artista">
+      <point x="0.0" y="-67.0" />
+      <point x="676.9999999999999" y="534.0" />
+      <point x="834.3668981481482" y="534.0" />
+      <point x="-55.5" y="176.0" />
+    </edge>
+    <edge source="modelo.dao.ArtistaDAO" target="modelo.beans.Malabarista">
+      <point x="172.39999999999998" y="-176.0" />
+      <point x="675.5053240740739" y="883.0" />
+      <point x="1302.675" y="883.0" />
+      <point x="-72.0" y="67.0" />
+    </edge>
+    <edge source="modelo.dao.ArtistaDAO" target="modelo.beans.Artistas">
+      <point x="-172.39999999999992" y="-176.0" />
+      <point x="330.70532407407404" y="883.0" />
+      <point x="110.0" y="883.0" />
+      <point x="0.0" y="98.5" />
+    </edge>
+    <edge source="modelo.procesos.Procesos" target="modelo.procesos.ProcesoAddArtista">
+      <point x="-109.375" y="-160.0" />
+      <point x="1309.9624999999999" y="1603.0" />
+      <point x="1266.2532407407407" y="1603.0" />
+      <point x="181.66666666666652" y="129.0" />
+    </edge>
+    <edge source="modelo.dao.ArtistaDAO" target="modelo.dao.DAO">
+      <point x="-86.19999999999993" y="-176.0" />
+      <point x="416.905324074074" y="883.0" />
+      <point x="388.0" y="883.0" />
+      <point x="0.0" y="144.5" />
+    </edge>
+    <edge source="controlador.ApTalentShow" target="modelo.dao.ArtistaDAO">
+      <point x="-135.20833333333326" y="-113.5" />
+      <point x="1617.5041666666666" y="2013.0" />
+      <point x="486.6053240740739" y="2013.0" />
+      <point x="486.6053240740739" y="1295.0" />
+      <point x="341.4803240740739" y="1295.0" />
+      <point x="-161.625" y="176.0" />
+    </edge>
+    <edge source="modelo.procesos.Procesos" target="vista.UtilidadesES">
+      <point x="109.375" y="-160.0" />
+      <point x="1528.7124999999999" y="1295.0" />
+      <point x="1713.630324074074" y="1295.0" />
+      <point x="-100.20000000000005" y="113.5" />
+    </edge>
+    <edge source="controlador.ApTalentShow" target="modelo.procesos.ProcesoAddArtista">
+      <point x="-86.04166666666652" y="-113.5" />
+      <point x="1666.6708333333333" y="1993.0" />
+      <point x="921.9166666666665" y="1993.0" />
+      <point x="921.9166666666665" y="1603.0" />
+      <point x="902.9199074074075" y="1603.0" />
+      <point x="-181.66666666666663" y="129.0" />
+    </edge>
+    <edge source="modelo.beans.Artista" target="modelo.beans.Actuar">
+      <point x="111.00000000000011" y="-176.0" />
+      <point x="1000.8668981481483" y="127.0" />
+      <point x="995.1168981481484" y="127.0" />
+      <point x="0.0" y="35.5" />
+    </edge>
+    <edge source="modelo.procesos.Procesos" target="vista.Menu">
+      <point x="328.125" y="-160.0" />
+      <point x="1747.4624999999999" y="1603.0" />
+      <point x="1973.5295138888887" y="1603.0" />
+      <point x="-147.0" y="67.0" />
+    </edge>
+    <edge source="controlador.ApTalentShow" target="vista.UtilidadesES">
+      <point x="12.291666666666742" y="-113.5" />
+      <point x="1765.0041666666666" y="1963.0" />
+      <point x="1903.0295138888887" y="1963.0" />
+      <point x="1903.0295138888887" y="1295.0" />
+      <point x="1813.830324074074" y="1295.0" />
+      <point x="0.0" y="113.5" />
+    </edge>
+    <edge source="modelo.procesos.ProcesoAddArtista" target="modelo.beans.Malabarista">
+      <point x="109.0" y="-129.0" />
+      <point x="1193.5865740740742" y="1275.0" />
+      <point x="1446.675" y="1275.0" />
+      <point x="72.0" y="67.0" />
+    </edge>
+    <edge source="modelo.beans.Cantante" target="modelo.beans.Artista">
+      <point x="0.0" y="-67.0" />
+      <point x="951.4999999999999" y="534.0" />
+      <point x="945.3668981481482" y="534.0" />
+      <point x="55.5" y="176.0" />
+    </edge>
+    <edge source="modelo.beans.Malabarista" target="modelo.beans.Artista">
+      <point x="0.0" y="-67.0" />
+      <point x="1374.675" y="534.0" />
+      <point x="1056.3668981481483" y="534.0" />
+      <point x="166.5000000000001" y="176.0" />
+    </edge>
+    <edge source="modelo.procesos.ProcesoAddArtista" target="modelo.beans.Cantante">
+      <point x="0.0" y="-129.0" />
+      <point x="1084.5865740740742" y="1295.0" />
+      <point x="1018.2499999999999" y="1295.0" />
+      <point x="66.75" y="67.0" />
+    </edge>
+    <edge source="modelo.procesos.ProcesoAddArtista" target="vista.UtilidadesES">
+      <point x="218.0" y="-129.0" />
+      <point x="1302.5865740740742" y="1285.0" />
+      <point x="1613.430324074074" y="1285.0" />
+      <point x="-200.4000000000001" y="113.5" />
+    </edge>
+    <edge source="modelo.procesos.Procesos" target="modelo.dao.ArtistaDAO">
+      <point x="-328.125" y="-160.0" />
+      <point x="1091.2124999999999" y="1593.0" />
+      <point x="521.1249999999999" y="1593.0" />
+      <point x="521.1249999999999" y="1295.0" />
+      <point x="556.9803240740739" y="1295.0" />
+      <point x="53.875" y="176.0" />
+    </edge>
+    <edge source="vista.Menu" target="vista.UtilidadesES">
+      <point x="-98.0" y="-67.0" />
+      <point x="2022.5295138888887" y="1295.0" />
+      <point x="2014.230324074074" y="1295.0" />
+      <point x="200.39999999999986" y="113.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3077884214910454" x="1177.0" y="1190.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
